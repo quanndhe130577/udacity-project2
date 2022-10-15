@@ -1,7 +1,7 @@
 #--------- Flask settings
 SERVER_HOST = 'https://project2appservice.azurewebsites.net' # Update this for the appropriate front-end website when up
 SERVER_PORT = 5000
-FLASK_DEBUG = True # Do not use debug mode in prod
+FLASK_DEBUG = False # Do not use debug mode in prod
 
 # Flask-Restplus settings
 SWAGGER_UI_DOC_EXPANSION = 'list'
@@ -16,4 +16,4 @@ API_VERSION = 'v1'
 #API_URL = " https://neighborlyapi.azurewebsites.net/api/"
 
 # for local host if Azure functions served locally
-API_URL = "https://project2appservice.azurewebsites.net/api/"
+API_URL = "https://project2functionapp1.azurewebsites.net/api/"
