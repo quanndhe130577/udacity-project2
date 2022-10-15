@@ -32,7 +32,7 @@
                 {% for a in ads %}
                 <div class="panel">
                     <div class="panel-body panel-neighborly">
-                        <div class="panel-title"> <a href="/ad/view/{{ a._id['$oid'] }}">{{a.title}}</a></div>
+                        <div class="panel-title"> <a href="/ad/view/{{ a._id }}">{{a.title}}</a></div>
                         <p class="text-muted">Email: {{a.email}}</p>
                         <p class="text-muted">{{a.description}}</p>
                         <p class="text-muted">Price: {{ a.price}}</p>
